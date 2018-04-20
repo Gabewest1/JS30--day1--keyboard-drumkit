@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    align-items: center;
+    background: url("images/background.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.keys {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.key {
+    align-items: center;
+    border: white solid 3px;
+    color: black;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    padding: 2rem 2.5rem;
+    transition: all .1s linear 0s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: gold;
+}
+
+@media (max-width: 890px) {
+    html {
+        font-size: 50%;
+    }
+}
